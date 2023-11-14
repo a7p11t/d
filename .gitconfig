@@ -1,3 +1,5 @@
 [user]
     name = junk
     email = 66475075+a7p11t@users.noreply.github.com
+[core]
+    editor = vim
