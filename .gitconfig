@@ -5,3 +5,7 @@
     editor = vim
     autoclrf = input
     quotepath = false
+[merge]
+    ff = false
+[pull]
+    ff = only
