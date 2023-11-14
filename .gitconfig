@@ -4,3 +4,4 @@
 [core]
     editor = vim
     autoclrf = input
+    quotepath = false
