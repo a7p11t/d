@@ -4,6 +4,9 @@ case $- in
       *) return;;
 esac
 
+# Alias definition
+alias v='nvim'
+
 # Prompt customization
 if [ -f /etc/bash_completion.d/git-prompt ]; then
     . /etc/bash_completion.d/git-prompt
