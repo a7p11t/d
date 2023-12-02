@@ -1,3 +1,6 @@
+" Display line number
+set number
+
 " Use spaces instead of tabs
 set expandtab
 
