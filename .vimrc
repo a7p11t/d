@@ -19,3 +19,5 @@ set softtabstop=4
 " Automatically indent new lines to match the previous line
 set autoindent
 
+" Mapping Shift+Tab to inverse tab in insert mode
+inoremap <S-Tab> <C-d>
