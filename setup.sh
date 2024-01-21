@@ -13,6 +13,11 @@ if !(type vim > /dev/null 2>&1); then
     sudo apt-get -y install vim
 fi
 
+if !(type nvim > /dev/null 2>&1); then
+    echo "Start nvim command installation"
+    sudo apt-get -y install neovim
+fi
+
 if !(type tig > /dev/null 2>&1); then
     echo "Start tig command installation"
     sudo apt-get -y install tig
