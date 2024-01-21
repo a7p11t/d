@@ -13,6 +13,11 @@ if !(type vim > /dev/null 2>&1); then
     sudo apt-get -y install vim
 fi
 
+if !(type tig > /dev/null 2>&1); then
+    echo "Start tig command installation"
+    sudo apt-get -y install tig
+fi
+
 #######################################
 # Setup dotfiles
 #######################################
