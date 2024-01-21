@@ -8,6 +8,11 @@ TSTAMP=`date +%Y%m%d%H%M`
 # Install Dependencies
 #######################################
 
+if !(type curl > /dev/null 2>&1); then
+    echo "Start curl command installation"
+    sudo apt-get -y install curl
+fi
+
 if !(type vim > /dev/null 2>&1); then
     echo "Start vim command installation"
     sudo apt-get -y install vim
