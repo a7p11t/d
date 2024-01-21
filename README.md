@@ -5,7 +5,7 @@
 
 ```bash
 git clone https://github.com/a7p11t/df.git $HOME/dotfiles
-./setup.sh
+$HOME/dotfiles/setup.sh
 ```
 
 ## Author
